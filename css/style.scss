@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+
+  *{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.form_banner{
+  max-width: 1200px;
+  padding-top: 30px;
+  margin: auto;
+  .values_table{
+    margin: auto;
+    background-color: #53843a;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    tr{
+      display: table;
+      margin: 15px auto;
+      td{
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+      }
+    }
+  }
+  .form{
+    display: flex;
+    align-items: center;
+    label{
+      margin: 0 5px 0 30px;
+    }
+    .city_variation{
+      margin-right: 0;
+      display: flex;
+      align-items: center;
+      #cities{
+        margin-left: 5px;
+      }
+    }
+    .sex_variations{
+      margin-left: 30px;
+    }
+    #save_button{
+      margin-left: 30px;
+    }
+  }
+}

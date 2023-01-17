@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Homework22</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<section class="form_banner">
+<form class="form">
+    <label for="fullname">Fullname</label>
+    <input name="fullname" id="fullname" type="text" placeholder="Vladlena Sotnikova">
+    <label for="birth_date">Birthdate</label>
+    <input name="birth_date" id="birth_date" type="date">
+    <div class="sex_variations">
+        <div>
+            <label for="male">Male</label>
+            <input name="gender" id="male" type="radio" value="male">
+        </div>
+        <div>
+            <label for="female">Female</label>
+            <input name="gender" id="female" type="radio" value="female" checked>
+        </div>
+        <div>
+            <label for="other">Other</label>
+            <input name="gender" id="other" type="radio" value="other">
+        </div>
+    </div>
+    <label class="city_variation">Select your city
+        <select name="countries" id="cities">
+        <option value="Odesa">Odesa</option>
+        <option value="Tel Aviv" selected>Tel Aviv</option>
+        <option value="New York">New York</option>
+    </select>
+    </label>
+    <label for="adress">Your adress</label>
+    <textarea name="adress" id="adress" placeholder="Herzl street 78/8" required></textarea>
+    <button type="submit" id="save_button">Save</button>
+</form>
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
